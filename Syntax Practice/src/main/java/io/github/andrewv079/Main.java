@@ -6,12 +6,19 @@ public class Main {
     static void main() {
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
         // to see how IntelliJ IDEA suggests fixing it.
-        IO.println(String.format("Hello and welcome!"));
+        System.out.println("Hello and welcome!");
+        byte a = 127;
+        byte neg_a = -128;
+        short b = 32767;
+        short neg_b = -32768;
+        int c = 2147483647;
+        int neg_c = -2147483648;
+        long d = 2147483648L;
 
         for (int i = 1; i <= 5; i++) {
             //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
             // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            IO.println("i = " + i);
+            System.out.println("i = " + i);
         }
     }
 }
