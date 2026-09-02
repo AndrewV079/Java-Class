@@ -5,7 +5,7 @@ public class FakeClass {
     public String FirstName;
     public String LastName;
 
-    public Fake(int age, String FirstName, String LastName){
+    public FakeClass(int age, String FirstName, String LastName){
         this.age = age;
         this.FirstName = FirstName;
         this.LastName = LastName;

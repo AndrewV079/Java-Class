@@ -15,10 +15,7 @@ public class Main {
         int neg_c = -2147483648;
         long d = 2147483648L;
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
+        FakeClass ourFake = new FakeClass(19, "Andrew", "Vichitbandha");
+        System.out.println(ourFake.FirstName);
         }
     }
-}
