@@ -6,16 +6,12 @@ public class Main {
     static void main() {
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
         // to see how IntelliJ IDEA suggests fixing it.
-        System.out.println("Hello and welcome!");
-        byte a = 127;
-        byte neg_a = -128;
-        short b = 32767;
-        short neg_b = -32768;
-        int c = 2147483647;
-        int neg_c = -2147483648;
-        long d = 2147483648L;
+        System.out.println("Hello, World!");
 
-        FakeClass ourFake = new FakeClass(19, "Andrew", "Vichitbandha");
-        System.out.println(ourFake.FirstName);
+        EmployeeInfo Nate = new EmployeeInfo(
+                "Nathan", "Russell", 2,1986, 17,
+        "(502)689-4201","njrussell@louisvill.edu", "111 Cool Way",
+                "Louisville","KY","42069"
+        );
         }
     }
